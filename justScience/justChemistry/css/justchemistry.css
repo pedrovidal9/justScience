@@ -1,0 +1,77 @@
+body {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(220, 220, 0, 1));
+  background-repeat: none;
+  color: white;
+  padding: 50px 10px 100%;
+}
+
+.navBar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  text-justify: inline;
+}
+
+.section {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 5%;
+  color: rgba(220, 220, 220, 0.8);
+}
+
+.home {
+  list-style: none;
+  display: inline-block;
+  position: fixed;
+  top: auto;
+  left: 10px;
+  color: rgba(220, 220, 220, 0.8);
+}
+
+.section:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.home:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+a:active {
+  color: white;
+}
+
+a:link {
+  color: rgba(220, 220, 220, 0.8);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(220, 220, 220, 0.8);
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+}
+
+#button1 {
+  background-color: rgba(100, 100, 100, 0.5);
+  color: white;
+}
+
+#button1:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.75);
+  color: black;
+}
