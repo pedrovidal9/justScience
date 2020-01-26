@@ -7,14 +7,37 @@
     <title>JustChemistry</title>
   </head>
   <body>
-    <body>
-      <nav class="navBar">
-        <ul>
-          <li class="home"><a href="../index.html">Home</a></li>
-          <li class="section"><a href="../justPhysics/justphysics.html">JustPhysics</a></li>
-          <li class="section"><a href="../justMaths/justmaths.html">JustMaths</a></li>
-          <li class="section"><a href="justchemistry.html">JustChemistry</a></li>
-        </ul>
-      </nav>
+    <nav class="navBar">
+      <ul>
+        <span onclick="openNav()">&#9776;</span>
+        <li class="home"><a href="../index.html">Home</a></li>
+        <li class="section"><a href="../justPhysics/justphysics.html">JustPhysics</a></li>
+        <li class="section"><a href="../justMaths/justmaths.html">JustMaths</a></li>
+        <li class="section"><a href="justchemistry.html">JustChemistry</a></li>
+      </ul>
+    </nav>
+
+    <nav id="index">
+      <ul class="ul2">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <li class="part"><a href="#button1">Hi</a></li>
+        <li class="part">How u doing?</li>
+      </ul>
+    </nav>
+
+    <script>
+      function openNav() {
+        document.getElementById("index").style.width = "200px";
+        document.getElementById("main").style.marginLeft = "200px";
+      }
+      function closeNav() {
+        document.getElementById("index").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+    <div id="main">
+
+    </div>
+
   </body>
 </html>

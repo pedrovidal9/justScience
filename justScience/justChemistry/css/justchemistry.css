@@ -5,6 +5,12 @@ body {
   padding: 50px 10px 100%;
 }
 
+h1 {
+  margin: auto;
+  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: center;
+}
+
 .navBar {
   position: fixed;
   top: 0px;
@@ -15,6 +21,11 @@ body {
   text-align: center;
   text-justify: inline;
 }
+
+ul {
+  padding-inline-start: 0;
+}
+
 
 .section {
   list-style: none;
@@ -28,20 +39,26 @@ body {
   display: inline-block;
   position: fixed;
   top: auto;
-  left: 10px;
+  left: 50px;
   color: rgba(220, 220, 220, 0.8);
+}
+
+span {
+  font-size: auto;
+  cursor:pointer;
+  position: fixed;
+  top: 13px;
+  left: 10px;
 }
 
 .section:hover {
   cursor: pointer;
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .home:hover {
   cursor: pointer;
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.9);
 }
 
 a:active {
@@ -61,17 +78,37 @@ a:visited {
 a:hover {
   cursor: pointer;
   color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.9);
   text-decoration: none;
 }
 
-#button1 {
-  background-color: rgba(100, 100, 100, 0.5);
-  color: white;
+#index {
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  width: 0;
+  height: 100%;
+  background-color: rgba(15, 15, 15, 0.75);
+  text-align: left;
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 
-#button1:hover {
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.75);
-  color: black;
+#main {
+  transition: 0.5s;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  text-align: right;
+}
+
+.part {
+  list-style: none;
+  padding: 10px 20px;
+  color: rgba(220, 220, 220, 0.8);
+  display: block;
+  transition: 0.3s;
 }
