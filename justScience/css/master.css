@@ -2,14 +2,30 @@ body {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 200, 200, 0.9));
   background-repeat: none;
   color: white;
-  padding: 50px 10px 100%;
+  padding: 50px 10px;
 }
 
 h1 {
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
   text-align: center;
+  padding-top: 10px;
+  font-size: 35px;
 }
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Arial", Arial, sans-serif;
+  text-align: justify;
+}
+
+
 
 .navBar {
   position: fixed;
@@ -20,6 +36,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.75);
   text-align: center;
   text-justify: inline;
+  font-size: 20px;
 }
 
 ul {
@@ -46,7 +63,7 @@ span {
   font-size: auto;
   cursor:pointer;
   position: fixed;
-  top: 13px;
+  top: 17px;
   left: 10px;
 }
 
@@ -82,7 +99,7 @@ a:hover {
 
 #index {
   position: fixed;
-  top: 50px;
+  top: auto;
   left: 0px;
   width: 0;
   height: 100%;
@@ -110,19 +127,11 @@ a:hover {
   color: rgba(220, 220, 220, 0.8);
   display: block;
   transition: 0.3s;
+  font-size: 20px;
 }
 
-#button1 {
-  background-color: rgba(100, 100, 100, 0.5);
-  color: white;
-}
-
-#button1:hover {
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.75);
-  color: black;
-}
-
-#button1:visited {
-  color: blue;
+.subpart {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 50px;
 }

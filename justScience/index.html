@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <script lang="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/master.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <title>JustScience</title>
   </head>
   <body>
@@ -20,8 +22,10 @@
     <nav id="index">
       <ul class="ul2">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <li class="part"><a href="#button1">Hi</a></li>
-        <li class="part">How u doing?</li>
+        <li class="part"><a href="#About">About</a></li>
+        <li class="part"><a href="#JustPhysics">JustPhysics</a></li>
+        <li class="part"><a href="#JustMaths">JustMaths</a></li>
+        <li class="part"><a href="#JustChemistry">JustChemistry</a></li>
       </ul>
     </nav>
 
@@ -40,8 +44,52 @@
       <h1>
         JustScience
       </h1>
-      <p>Today we are gonna talk about some things.</p>
-      <button type="button" id="button1"> Press here to do nothing </button>
+      <div class="subpart" id="About">
+        <h2>
+          About
+        </h2>
+        <p>
+          JustScience es una página web que tiene el propósito de servir como herramienta para aprender, reforzar y crear una mayor intuición sobre diversos
+          conceptos de ciencia, tanto de Física, como de Matemáticas y Química, a un nivel, por lo general, de conceptos de bachillerato.
+        </p>
       </div>
+      <div class="subpart" id="JustPhysics">
+        <h2>
+          JustPhysics
+        </h2>
+        <p>
+          JustPhysics es una de las páginas que forman parte de JustScience. Como podéis imaginar, esta se centrará en conceptos de física, fundamentalmente
+          los tratados en el temario de bachillerato. Se tratarán temas diversos, principalmente de mecánica clásica, con simulaciones interactivas para
+          poder visualizar con facilidad los fenómenos físicos estudiados, y permitiendo a la vez obtener resultados numéricos para los problemas que se
+          traten.
+        </p>
+      </div>
+
+      <div class="subpart" id="JustMaths">
+        <h2>
+          JustMaths
+        </h2>
+        <p>
+          JustMaths es la segunda página que forma JustScience. Esta se centra en conceptos de matemáticas de bachillerato, en crear una intuición real sobre
+          qué son, por qué tienen la forma que tienen, cuales son las posibilidades que ofrecen, y por qué funcionan. Los diversos apartados tratarán los
+          temas de forma visual, pero contarán también con la derivación matemática necesaria para conprender por qué funcionan. La intención es que el
+          lector comprenda el proceso para llegar a estos conocimientos, para saber utilizarlos correctamente y descubrir nuevas propiedades por sí mismo,
+          saliéndose así de la rutina de realizar computaciones repetitivas a las que está acostumbrado, y que no son, ni por asomo, el propósito de un área
+          del conocimiento tan amplia como son las matemáticas.
+        </p>
+      </div>
+
+      <div class="subpart" id="JustChemistry">
+        <h2>
+          JustChemistry
+        </h2>
+
+        <p>
+          JustChemistry constituye la tercera y última página de JustScience. En ella se tratarán conceptos de química, desde los constituyentes básicos de
+          la materia, con conceptos básicos de física cuántica necesarios para entender en profundidad la naturaleza de nuestro universo, hasta reacciones
+          redox y termodinámica de las reacciones químicas.
+        </p>
+      </div>
+    </div>
   </body>
 </html>
