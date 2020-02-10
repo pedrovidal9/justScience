@@ -9,6 +9,14 @@ h1 {
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
   text-align: center;
+  padding-top: 10px;
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Arial", Arial, sans-serif;
+  text-align: justify;
 }
 
 .navBar {
@@ -20,6 +28,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.75);
   text-align: center;
   text-justify: inline;
+  font-size: 20px;
 }
 
 ul {
@@ -47,7 +56,7 @@ span {
   font-size: auto;
   cursor:pointer;
   position: fixed;
-  top: 13px;
+  top: 17px;
   left: 10px;
 }
 
@@ -111,4 +120,11 @@ a:hover {
   color: rgba(220, 220, 220, 0.8);
   display: block;
   transition: 0.3s;
+  font-size: 20px;
+}
+
+.subpart {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 50px;
 }
